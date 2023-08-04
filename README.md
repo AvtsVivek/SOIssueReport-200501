@@ -5,6 +5,8 @@ I have created a [tone down example here](https://github.com/AvtsVivek/SOIssueRe
 
 In the server, when I use **Console.WriteLine**, it throws exception. When I revert back to using **await Console.Error.WriteLineAsync()**, it runs fine. 
 
+![Exception is throw](50_50Exception.jpg)
+
 Why is that? Looks like there is something to do with await async that I am missing.
 
 The following method works.
@@ -55,7 +57,7 @@ private static void RespondToRpcRequestsUsingConsoleWithAwaiterAndResult(Stream 
 }
 ```
 
-# How to run the example.
+### How to run the example.
 1. Just open [this](https://github.com/AvtsVivek/SOIssueReport-200501) in Visual Studio, set the client as start up project and press F5.
 2. With command line, cd into the client project and run it.
 
