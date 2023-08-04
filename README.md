@@ -61,5 +61,7 @@ private static void RespondToRpcRequestsUsingConsoleWithAwaiterAndResult(Stream 
 1. Just open [this](https://github.com/AvtsVivek/SOIssueReport-200501) in Visual Studio, set the client as start up project and press F5.
 2. With command line, cd into the client project and run it.
 
+```cmd
 cd JsonRpcStdIoClient
 dotnet run --project ./JsonRpcStdIoClient.csproj
+```
